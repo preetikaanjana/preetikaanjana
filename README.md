@@ -84,8 +84,6 @@
   <img src="https://github-profile-trophy.vercel.app/?username=preetikaanjana&theme=rosepine&no-frame=true&no-bg=true&margin-w=8&row=1" alt="Trophies" />
 </p>
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=preetikaanjana&theme=dracula&bg_color=191724&color=ebbcba&line=c4a7e7&point=ebbcba&hide_border=true)](https://github.com/preetikaanjana)
-
 </div>
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
@@ -94,11 +92,11 @@
 
 <p align="center">
   <a href="https://leetcode.com/u/preetikaanjana/" target="_blank">
-    <img src="https://leetcard.jacoblin.cool/preetikaanjana?theme=unicorn&font=JetBrains%20Mono&ext=contest" height="280" alt="LeetCode stats" />
+    <img src="https://leetcard.jacoblin.cool/preetikaanjana?theme=unicorn&font=JetBrains%20Mono&ext=contest" width="400" alt="LeetCode stats" />
   </a>
-  &nbsp;&nbsp;
+  <br><br>
   <a href="https://www.geeksforgeeks.org/profile/preetikatvb7" target="_blank">
-    <img src="https://gfgstatscard.vercel.app/preetikatvb7" height="280" alt="GeeksforGeeks stats" />
+    <img src="https://gfgstatscard.vercel.app/preetikatvb7" width="400" alt="GeeksforGeeks stats" />
   </a>
 </p>
 
@@ -110,50 +108,13 @@
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
-## 📊 3D Contribution Calendar
+## 📈 Contribution Graph
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-rainbow.svg">
-    <source media="(prefers-color-scheme: light)" srcset="profile-3d-contrib/profile-gitblock.svg">
-    <img alt="3D Contribution Graph" src="profile-3d-contrib/profile-night-rainbow.svg" width="100%">
-  </picture>
+  <a href="https://github.com/preetikaanjana" target="_blank">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=preetikaanjana&theme=rose-pine&hide_border=true" width="100%" alt="Contribution Graph" />
+  </a>
 </div>
-
-<!-- 
-GUIDE TO SET UP THE 3D CONTRIBUTION CALENDAR:
-1. Create a GitHub Action in your profile repository: `.github/workflows/profile-3d.yml`
-2. Paste the following configuration:
----
-name: GitHub-Profile-3D-Contrib
-
-on:
-  schedule: # 03:00 JST == 18:00 UTC
-    - cron: "0 18 * * *"
-  workflow_dispatch:
-
-permissions:
-  contents: write
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    name: generate-github-profile-3d-contrib
-    steps:
-      - uses: actions/checkout@v4
-      - uses: yoshi389111/github-profile-3d-contrib@0.7.1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          USERNAME: ${{ github.repository_owner }}
-      - name: Commit & Push
-        run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git add -A .
-          git commit -m "Generated 3D contributions" || exit 0
-          git push
----
--->
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
