@@ -93,8 +93,11 @@
 ## 🧠 Coding Platforms
 
 <div align="center">
-  <a href="https://leetcode.com/u/preetikaanjana/">
+  <a href="https://leetcode.com/u/preetikaanjana/" target="_blank">
     <img src="https://leetcard.jacoblin.cool/preetikaanjana?theme=unicorn&font=JetBrains%20Mono&ext=contest" alt="LeetCode stats" />
+  </a>
+  <a href="https://www.geeksforgeeks.org/user/preetikaanjana/" target="_blank">
+    <img src="https://gfgstatscard.vercel.app/preetikaanjana" alt="GeeksforGeeks stats" />
   </a>
 </div>
 
