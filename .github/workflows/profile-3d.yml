@@ -5,12 +5,15 @@ on:
     - cron: "0 18 * * *"
   workflow_dispatch: # Allows you to run it manually
 
+permissions:
+  contents: write # 👈 Tells GitHub to allow the action to write and commit the files
+
 jobs:
   build:
     runs-on: ubuntu-latest
     name: generate-github-profile-3d-contrib
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4 # 👈 Upgraded to checkout@v4 to fix the Node 20 warning
       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

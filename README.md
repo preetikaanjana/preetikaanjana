@@ -96,8 +96,8 @@
   <a href="https://leetcode.com/u/preetikaanjana/" target="_blank">
     <img src="https://leetcard.jacoblin.cool/preetikaanjana?theme=unicorn&font=JetBrains%20Mono&ext=contest" alt="LeetCode stats" />
   </a>
-  <a href="https://www.geeksforgeeks.org/user/preetikaanjana/" target="_blank">
-    <img src="https://gfgstatscard.vercel.app/preetikaanjana" alt="GeeksforGeeks stats" />
+  <a href="https://www.geeksforgeeks.org/profile/preetikatvb7" target="_blank">
+    <img src="https://gfgstatscard.vercel.app/preetikatvb7" alt="GeeksforGeeks stats" />
   </a>
 </div>
 
@@ -131,12 +131,15 @@ on:
     - cron: "0 18 * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
     name: generate-github-profile-3d-contrib
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
