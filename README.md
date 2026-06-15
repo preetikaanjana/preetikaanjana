@@ -15,7 +15,7 @@
 
 </div>
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
 ## ✨ About Me
 
@@ -25,7 +25,7 @@
 - 💬 **Ask me about:** JavaScript, React, Next.js, Tailwind CSS, and frontend performance optimization.
 - ⚡ **Fun fact:** To me, code is just another way to create pretty things.
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
 ## 🛠️ My Tech Stack
 
@@ -41,8 +41,10 @@
 
 ### Machine Learning & Data Science
 <p>
-  <img src="https://skillicons.dev/icons?i=py,pandas&perline=10" />
-  <span style="font-weight: 500; font-size: 1.1em; margin-left: 10px; vertical-align: super;">Pandas, Matplotlib, Seaborn, Machine Learning Fundamentals</span>
+  <a href="https://pandas.pydata.org/" target="_blank"><img src="https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" /></a>
+  <a href="https://matplotlib.org/" target="_blank"><img src="https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black" alt="Matplotlib" /></a>
+  <a href="https://seaborn.pydata.org/" target="_blank"><img src="https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge&logo=python&logoColor=white" alt="Seaborn" /></a>
+  <a href="https://scikit-learn.org/" target="_blank"><img src="https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-Learn" /></a>
 </p>
 
 ### Databases & Cloud
@@ -55,7 +57,7 @@
   <img src="https://skillicons.dev/icons?i=git,github,vscode" />
 </p>
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
 ## 📈 GitHub Analytics
 
@@ -86,7 +88,7 @@
 
 </div>
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
 ## 🧠 Coding Platforms
 
@@ -96,23 +98,57 @@
   </a>
 </div>
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
 ## 🏅 Certifications
 - **NPTEL:** Introduction to Machine Learning
 - **NPTEL:** Marketing Analytics
 
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+
+## 📊 3D Contribution Calendar
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/preetikaanjana/preetikaanjana/main/profile-3d-contrib/profile-night-rainbow.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/preetikaanjana/preetikaanjana/main/profile-3d-contrib/profile-gitblock.svg">
+    <img alt="3D Contribution Graph" src="https://raw.githubusercontent.com/preetikaanjana/preetikaanjana/main/profile-3d-contrib/profile-night-rainbow.svg" width="100%">
+  </picture>
+</div>
+
+<!-- 
+GUIDE TO SET UP THE 3D CONTRIBUTION CALENDAR:
+1. Create a GitHub Action in your profile repository: `.github/workflows/profile-3d.yml`
+2. Paste the following configuration:
 ---
+name: GitHub-Profile-3D-Contrib
 
-## 🕹️ Contribution Snake
+on:
+  schedule: # 03:00 JST == 18:00 UTC
+    - cron: "0 18 * * *"
+  workflow_dispatch:
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/preetikaanjana/preetikaanjana/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/preetikaanjana/preetikaanjana/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/preetikaanjana/preetikaanjana/output/pacman-contribution-graph.svg">
-</picture>
-
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: generate-github-profile-3d-contrib
+    steps:
+      - uses: actions/checkout@v3
+      - uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+      - name: Commit & Push
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add -A .
+          git commit -m "Generated 3D contributions" || exit 0
+          git push
 ---
+-->
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
 ## 🤝 Let's Connect
 
@@ -122,7 +158,7 @@
   <a href="mailto:preetikaanjana@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
 </p>
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
 <div align="center">
   <i>🌸 Coding in pastel and building dreams in pixels. 🌸</i>
