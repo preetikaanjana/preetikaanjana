@@ -92,14 +92,15 @@
 
 ## 🧠 Coding Platforms
 
-<div align="center">
+<p align="center">
   <a href="https://leetcode.com/u/preetikaanjana/" target="_blank">
-    <img src="https://leetcard.jacoblin.cool/preetikaanjana?theme=unicorn&font=JetBrains%20Mono&ext=contest" alt="LeetCode stats" />
+    <img src="https://leetcard.jacoblin.cool/preetikaanjana?theme=unicorn&font=JetBrains%20Mono&ext=contest" height="280" alt="LeetCode stats" />
   </a>
+  &nbsp;&nbsp;
   <a href="https://www.geeksforgeeks.org/profile/preetikatvb7" target="_blank">
-    <img src="https://gfgstatscard.vercel.app/preetikatvb7" alt="GeeksforGeeks stats" />
+    <img src="https://gfgstatscard.vercel.app/preetikatvb7" height="280" alt="GeeksforGeeks stats" />
   </a>
-</div>
+</p>
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
@@ -113,9 +114,9 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/preetikaanjana/preetikaanjana/main/profile-3d-contrib/profile-night-rainbow.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/preetikaanjana/preetikaanjana/main/profile-3d-contrib/profile-gitblock.svg">
-    <img alt="3D Contribution Graph" src="https://raw.githubusercontent.com/preetikaanjana/preetikaanjana/main/profile-3d-contrib/profile-night-rainbow.svg" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-rainbow.svg">
+    <source media="(prefers-color-scheme: light)" srcset="profile-3d-contrib/profile-gitblock.svg">
+    <img alt="3D Contribution Graph" src="profile-3d-contrib/profile-night-rainbow.svg" width="100%">
   </picture>
 </div>
 
