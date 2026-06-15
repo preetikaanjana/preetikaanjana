@@ -90,15 +90,22 @@
 
 ## 🧠 Coding Platforms
 
-<p align="center">
-  <a href="https://leetcode.com/u/preetikaanjana/" target="_blank">
-    <img src="https://leetcard.jacoblin.cool/preetikaanjana?theme=unicorn&font=JetBrains%20Mono&ext=contest" width="400" alt="LeetCode stats" />
-  </a>
-  <br><br>
-  <a href="https://www.geeksforgeeks.org/profile/preetikatvb7" target="_blank">
-    <img src="https://gfgstatscard.vercel.app/preetikatvb7" width="400" alt="GeeksforGeeks stats" />
-  </a>
-</p>
+<div align="center">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td>
+        <a href="https://leetcode.com/u/preetikaanjana/" target="_blank">
+          <img src="https://leetcard.jacoblin.cool/preetikaanjana?theme=unicorn&font=JetBrains%20Mono&ext=contest" height="280" alt="LeetCode stats" />
+        </a>
+      </td>
+      <td style="padding-left: 10px;">
+        <a href="https://www.geeksforgeeks.org/profile/preetikatvb7" target="_blank">
+          <img src="https://gfgstatscard.vercel.app/preetikatvb7" height="280" alt="GeeksforGeeks stats" />
+        </a>
+      </td>
+    </tr>
+  </table>
+</div>
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
